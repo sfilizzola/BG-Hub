@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		6B5AA08B1A37662E00D4EC8F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5AA08A1A37662E00D4EC8F /* AppDelegate.swift */; };
 		6B5AA08E1A37662E00D4EC8F /* BG_Hub.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B5AA08C1A37662E00D4EC8F /* BG_Hub.xcdatamodeld */; };
-		6B5AA0901A37662E00D4EC8F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5AA08F1A37662E00D4EC8F /* ViewController.swift */; };
 		6B5AA0931A37662E00D4EC8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5AA0911A37662E00D4EC8F /* Main.storyboard */; };
 		6B5AA0951A37662E00D4EC8F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5AA0941A37662E00D4EC8F /* Images.xcassets */; };
 		6B5AA0981A37662E00D4EC8F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B5AA0961A37662E00D4EC8F /* LaunchScreen.xib */; };
 		6B5AA0A41A37662E00D4EC8F /* BG_HubTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5AA0A31A37662E00D4EC8F /* BG_HubTests.swift */; };
+		6B5AA0B01A3766F100D4EC8F /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5AA0AD1A3766F100D4EC8F /* HomeViewController.swift */; };
+		6B5AA0B11A3766F100D4EC8F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5AA0AE1A3766F100D4EC8F /* LoginViewController.swift */; };
+		6B5AA0B21A3766F100D4EC8F /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5AA0AF1A3766F100D4EC8F /* SearchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +33,15 @@
 		6B5AA0891A37662E00D4EC8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B5AA08A1A37662E00D4EC8F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B5AA08D1A37662E00D4EC8F /* BG_Hub.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BG_Hub.xcdatamodel; sourceTree = "<group>"; };
-		6B5AA08F1A37662E00D4EC8F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6B5AA0921A37662E00D4EC8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6B5AA0941A37662E00D4EC8F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6B5AA0971A37662E00D4EC8F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		6B5AA09D1A37662E00D4EC8F /* BG HubTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BG HubTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B5AA0A21A37662E00D4EC8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B5AA0A31A37662E00D4EC8F /* BG_HubTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BG_HubTests.swift; sourceTree = "<group>"; };
+		6B5AA0AD1A3766F100D4EC8F /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6B5AA0AE1A3766F100D4EC8F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		6B5AA0AF1A3766F100D4EC8F /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +83,10 @@
 		6B5AA0871A37662E00D4EC8F /* BG Hub */ = {
 			isa = PBXGroup;
 			children = (
+				6B5AA0AD1A3766F100D4EC8F /* HomeViewController.swift */,
+				6B5AA0AE1A3766F100D4EC8F /* LoginViewController.swift */,
+				6B5AA0AF1A3766F100D4EC8F /* SearchViewController.swift */,
 				6B5AA08A1A37662E00D4EC8F /* AppDelegate.swift */,
-				6B5AA08F1A37662E00D4EC8F /* ViewController.swift */,
 				6B5AA0911A37662E00D4EC8F /* Main.storyboard */,
 				6B5AA0941A37662E00D4EC8F /* Images.xcassets */,
 				6B5AA0961A37662E00D4EC8F /* LaunchScreen.xib */,
@@ -215,9 +221,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B5AA0901A37662E00D4EC8F /* ViewController.swift in Sources */,
+				6B5AA0B21A3766F100D4EC8F /* SearchViewController.swift in Sources */,
 				6B5AA08E1A37662E00D4EC8F /* BG_Hub.xcdatamodeld in Sources */,
 				6B5AA08B1A37662E00D4EC8F /* AppDelegate.swift in Sources */,
+				6B5AA0B11A3766F100D4EC8F /* LoginViewController.swift in Sources */,
+				6B5AA0B01A3766F100D4EC8F /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
